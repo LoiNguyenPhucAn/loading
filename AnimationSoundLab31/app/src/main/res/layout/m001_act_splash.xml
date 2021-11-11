@@ -30,8 +30,21 @@
             android:text="@string/app_name"
             android:textColor="@color/white"
             android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnLoading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="#259C0A"
+            android:hapticFeedbackEnabled="false"
+            android:text="Loading" />
     </LinearLayout>
 
-    <include layout="@layout/item_loading"/>
+    <include
+        android:id="@+id/incLoadingLayout"
+        layout="@layout/item_loading" />
 
 </FrameLayout>
